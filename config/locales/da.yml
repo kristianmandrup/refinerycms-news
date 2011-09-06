@@ -1,0 +1,38 @@
+da:
+  plugins:
+    refinerycms_news:
+      title: Nyheder
+      description: Laver en simpel nyheds sektion
+  admin:
+    news_items:
+      news_item:
+        view_live_html: "Vis denne nyhed live <br/><em>(åbner i et nyt vindue)</em>"
+        edit: Rediger denne nyhed
+        delete: Slet denne nyhed helt
+        published: Published
+      index:
+        actions: Kommandoer
+        create: Tilføj Nyhed
+        news_item: Nyheder
+        no_items: Ingen søgeresultater fundet.
+        no_items_yet: Der er endnu ingen nyheder. Klik "Tilføj Nyhed" for at tilføje din første nyhed.'
+  news_items:
+    show:
+      back_to_index: Tilbage til alle nyheder
+      published: Publicerede
+    recent_posts:
+      recent_posts: Nyested Artikler
+    index:
+      published: Publicerede
+      read_more: Læs mere
+      no_items_yet: Der er endnu ingen nyheder.
+  activerecord:
+    attributes:
+      news_item:
+        title: Titel
+        body: Tekst
+        publish_date: Publiceringsdato
+        expiration_date: Udløbsdato
+    models:
+      news_item: Nyhed
+
